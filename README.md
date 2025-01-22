@@ -38,7 +38,7 @@ The script attempts to retrieve URLs from the Wayback Machine. For each URL foun
 You can install the required packages using the following command:
 
 ```bash
-pip install requests colorama termcolor
+pip3 install requests colorama termcolor
 ```
 
 ## How to Use
@@ -87,4 +87,4 @@ The script will create a folder called `content` and store the filtered URLs for
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://raw.githubusercontent.com/anmolksachan/WayBackupFinder/refs/heads/main/LICENSE) file for details.
