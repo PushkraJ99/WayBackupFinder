@@ -100,7 +100,7 @@ def check_wayback_snapshot(url):
 
 # Save filtered URLs
 def save_urls(target, extension_stats, file_suffix="_filtered_urls.txt"):
-    folder = f"content/{target}"
+    folder = f"WayBackup/{target}"
     os.makedirs(folder, exist_ok=True)
     all_filtered_urls = []
     for ext, urls in extension_stats.items():
